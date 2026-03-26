@@ -11,7 +11,7 @@ abstract class Item {
         this.name = name;
         this.description = description;
         this.weight = weight;
-        this.usable = usable;
+        this.use = use;
         this.type = type;
     }
 
