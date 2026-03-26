@@ -20,13 +20,9 @@ public class Bag {
     }
 
     public void store(Item item) {
-        if (items.size() >= max) {
-            System.out.println("can't put in, no space");
-            return;
-        }
-
-        items.add(item);
-        System.out.println(item + " is putted inside");
+            items.add(item);
+            System.out.println("You put an item inside");
+        
     }
 
     public void remove(Item item) {
@@ -36,13 +32,8 @@ public class Bag {
     }
 
     public void lookfor(String name) {
-        for (Item item : items) {
-            if (item.toString().equalsIgnoreCase(name)) {
-                System.out.println("item);
+                System.out.println(item);
                 return;
-            }
-        }
-        System.out.println("nothing");
     }
 
     public void empty() {
