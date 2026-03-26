@@ -1,11 +1,11 @@
 import java.util.*;
 
 abstract class Item {
-    protected String name;
-    protected String description;
-    protected double weight;
-    protected boolean usable;
-    protected String type;
+    private String name;
+    private String description;
+    private double weight;
+    private boolean usable;
+    private String type;
 
     public Item(String name, String description, double weight, boolean usable, String type) {
         this.name = name;
