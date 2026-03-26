@@ -7,7 +7,7 @@ public class Bag {
 
     public Bag(int max, double maxWeight) {
         this.max = max;
-        this.maxWeight = maxWeight;
+        this.maxWeight = 50;
         this.items = new ArrayList<Item>();
     }
 
