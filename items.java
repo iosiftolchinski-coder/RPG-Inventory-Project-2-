@@ -69,9 +69,9 @@ class Gun extends Item {
 
     public void use() {
         if (amnt > 0) {
-            System.out.println("used " + name + "; now you are left with " + amnt + ", loser");
+            System.out.println("used " + name + "; now you are left with " + amnt + ", aaahaahahah");
         } else {
-            System.out.println("you wasted all of your " + name + ", loser");
+            System.out.println("you wasted all of your " + name + ", aaahahaah");
         }
     }
 }
