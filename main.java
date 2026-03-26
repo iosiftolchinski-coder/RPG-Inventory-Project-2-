@@ -25,7 +25,7 @@ public class Main {
         arrow.use();
         key.use();
 
-        bag.search("olivie");
+        bag.lookfor("olivie");
         bag.remove(olivie);
         bag.show();
 
