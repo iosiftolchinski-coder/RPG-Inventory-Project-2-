@@ -4,10 +4,10 @@ abstract class Item {
     private String name;
     private String description;
     private double weight;
-    private boolean usable;
+    private boolean use;
     private String type;
 
-    public Item(String name, String description, double weight, boolean usable, String type) {
+    public Item(String name, String description, double weight, boolean use, String type) {
         this.name = name;
         this.description = description;
         this.weight = weight;
